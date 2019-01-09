@@ -78,7 +78,7 @@ while cap.isOpened():
     _, head, _, tail = car
 
 
-
+    # park小车车
     if park(head, destination.des, 70) == 'P':
         comBlutooth('P', port)
         comBlutooth('S', port)
